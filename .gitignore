@@ -1,21 +1,4 @@
 node_modules/
-dist/
 .env
-.env.local
-.env.*.local
-/tmp
-/profiles
+dist/
 *.log
-.DS_Store
-
-# Local-only tools
-.enzyme/
-.claude/
-.obsidian/
-.cursor/
-
-# Test/audit artifacts from local runs
-/tmp-audit/
-health-*.csv
-scorecard-*.md
-campaign-plan-*.md

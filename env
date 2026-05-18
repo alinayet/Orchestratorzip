@@ -1,0 +1,35 @@
+# Copy to .env for local use (both .env and this file are loaded by _lib.ts)
+
+# ─────────────────────────────────────────
+# DYNADOT
+# Get it from: dynadot.com → Account → API
+# ─────────────────────────────────────────
+DYNADOT_API_KEY=
+
+
+# ─────────────────────────────────────────
+# ZAPMAIL
+# Get it from: zapmail.ai → Settings → Integrations → API
+# ─────────────────────────────────────────
+ZAPMAIL_API_KEY=
+ZAPMAIL_WORKSPACE_KEY=
+ZAPMAIL_SERVICE_PROVIDER=GOOGLE        # GOOGLE or MICROSOFT
+
+
+# ─────────────────────────────────────────
+# INSTANTLY AI
+# Get it from: app.instantly.ai → Settings → Integrations → API Keys
+# ─────────────────────────────────────────
+INSTANTLY_API_KEY=
+
+# Optional — if multiple Instantly accounts are linked in Zapmail
+# ZAPMAIL_INSTANTLY_THIRD_PARTY_ACCOUNT_ID=
+
+# ─────────────────────────────────────────
+# SENDER IDENTITY
+# Used when creating mailboxes in Zapmail
+# ─────────────────────────────────────────
+SENDER_FIRST_NAME=
+SENDER_LAST_NAME=
+SENDER_COMPANY=
+SENDER_PHYSICAL_ADDRESS=

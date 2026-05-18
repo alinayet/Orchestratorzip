@@ -1,0 +1,23 @@
+{
+  "name": "outbound-infra",
+  "version": "1.0.0",
+  "description": "Automated outbound email infrastructure setup",
+  "type": "module",
+  "scripts": {
+    "domains": "npx tsx scripts/setup-domains.ts",
+    "connect": "npx tsx scripts/connect-domains.ts",
+    "mailboxes": "npx tsx scripts/setup-mailboxes.ts",
+    "push": "npx tsx scripts/push-accounts.ts",
+    "verify": "npx tsx scripts/verify-setup.ts",
+    "all": "npx tsx run-all.ts"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.5",
+    "@types/node": "^20.12.7"
+  }
+}
